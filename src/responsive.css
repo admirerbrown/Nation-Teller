@@ -1,7 +1,4 @@
 @media screen and (min-width: 768px) {
-  /* .App {
-  } */
-
   .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -11,5 +8,9 @@
     height: 40px;
     border-radius: 5px;
     margin-top: 50px;
+  }
+
+  ul {
+    padding: 20px;
   }
 }

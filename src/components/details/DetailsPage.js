@@ -1,6 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable max-len */
 /* eslint-disable no-restricted-globals */
-import { BsArrowLeftCircle } from 'react-icons/bs';
+import {
+  BsArrowLeftCircle, BsGithub, BsLinkedin, BsTwitter, BsGearWide,
+} from 'react-icons/bs';
+import { IoMdMic } from 'react-icons/io';
+
 import { useNavigate, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import React, { useEffect } from 'react';
@@ -34,48 +39,75 @@ const DetailsPage = () => {
     <div>
       {countryInfo ? (
         <div className="container">
-          <p>
-            I am details page
-            <BsArrowLeftCircle onClick={handleClick} />
-          </p>
-          <div className="container-A">
-            <div className="continent-img">
-              <img className="world-img" src={countryInfo.flags.png} alt="World" />
+          <div className="nav-lane">
+            <BsArrowLeftCircle onClick={handleClick} className="back-icon" />
+            <div className="socials">
+              <a href="https://github.com/admirerbrown">
+                <BsGithub />
+              </a>
+              <a href="https://www.linkedin.com/in/samuel-ntow-kyere/">
+                <BsLinkedin />
+              </a>
+              <a href="https://twitter.com/brown_admirer">
+                <BsTwitter />
+              </a>
             </div>
-            <div>{countryInfo.name.common}</div>
+
+            <div className="left-lane">
+              <IoMdMic />
+              <BsGearWide />
+            </div>
+          </div>
+
+          <div className="container-A sp1">
+            <div className="cont-img-box">
+              <img className="selected-img loader" src={countryInfo.flags.png} alt="World" />
+            </div>
+            <div className="banner-text">
+              <p className="country-name">
+                {' '}
+                {countryInfo.name.common}
+              </p>
+              <p className="b2">
+                area:
+                {' '}
+                {countryInfo.area}
+
+              </p>
+            </div>
           </div>
           <div>
             <ul>
               <li>
-                population:
+                <p className="val">Population :</p>
                 {countryInfo.population}
               </li>
-              <li>
-                timezones:
+              <li className="new-Color">
+                <p className="val ">Timezones :</p>
                 {countryInfo.timezones[0]}
               </li>
               <li>
-                capital:
+                <p className="val">Capital :</p>
                 {countryInfo.capital[0]}
               </li>
-              <li>
-                latitude:
+              <li className="new-Color">
+                <p className="val">Latitude :</p>
                 {countryInfo.latlng[0]}
               </li>
               <li>
-                longitude:
+                <p className="val">Longitude :</p>
                 {countryInfo.latlng[1]}
               </li>
-              <li>
-                subregion:
+              <li className="new-Color">
+                <p className="val">Subregion :</p>
                 {countryInfo.subregion}
               </li>
               <li>
-                area:
+                <p className="val">Area :</p>
                 {countryInfo.area}
               </li>
-              <li>
-                ccn3:
+              <li className="new-Color">
+                <p className="val">Ccn3 :</p>
                 {countryInfo.ccn3}
               </li>
             </ul>

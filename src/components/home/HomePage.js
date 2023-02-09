@@ -1,5 +1,8 @@
 import { useSelector } from 'react-redux';
-import { BsArrowRightCircle } from 'react-icons/bs';
+import {
+  BsGithub, BsLinkedin, BsTwitter, BsGearWide, BsArrowRightCircle,
+} from 'react-icons/bs';
+import { IoMdMic } from 'react-icons/io';
 import { useNavigate } from 'react-router-dom';
 import africa1 from '../../images/africa1.jpg';
 import Filter from '../Filter';
@@ -9,6 +12,24 @@ const Homepage = () => {
 
   return (
     <div>
+      <div className="nav-lane">
+        <div className="socials">
+          <a href="https://github.com/admirerbrown">
+            <BsGithub />
+          </a>
+          <a href="https://www.linkedin.com/in/samuel-ntow-kyere/">
+            <BsLinkedin />
+          </a>
+          <a href="https://twitter.com/brown_admirer">
+            <BsTwitter />
+          </a>
+        </div>
+
+        <div className="left-lane">
+          <IoMdMic />
+          <BsGearWide />
+        </div>
+      </div>
       <div className="container-A">
         <div className="continent-img-box">
           <img className="world-img loader" src={africa1} alt="World" />
