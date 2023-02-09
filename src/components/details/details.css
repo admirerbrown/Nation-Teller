@@ -1,0 +1,6 @@
+.details {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  height: 20px;
+}
