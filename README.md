@@ -69,7 +69,7 @@ Displays filtered list of country depending on the users search parameter.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [click here](https://country-information-4jv2.onrender.com/)
+- [click here](https://nation-teller.onrender.com)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
