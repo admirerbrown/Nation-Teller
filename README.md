@@ -90,7 +90,7 @@ Displays filtered list of country depending on the users search parameter.
 - GitHub Repository URL: https://github.com/admirerbrown/Covid-Rat.git
   To get a local copy up and running follow these simple example steps.
   
-  ```git clone  https://github.com/admirerbrown/Covid-Rat.git```
+  ```git clone  https://github.com/admirerbrown/Nation-Teller.git```
 
 
 ### Prerequisites
@@ -161,7 +161,7 @@ You can deploy this project using: Render, or Netlify
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/admirerbrown/Covid-Rat/issues).
+Feel free to check the [issues page](https://github.com/admirerbrown/Nation-Teller/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,7 +185,7 @@ If you like this project please follow me on github and give stars to my repo.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/admirerbrown/Covid-Rat/blob/build-basic-pageStructure/LICENSE.md) licensed.
+This project is [MIT](https://github.com/admirerbrown/Nation-Teller/blob/build-basic-pageStructure/LICENSE.md) licensed.
  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
