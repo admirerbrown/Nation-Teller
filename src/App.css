@@ -9,6 +9,7 @@
 .App {
   background-color: #5687e3;
   padding: 5px;
+  min-height: 100vh;
 }
 
 .container-A {
