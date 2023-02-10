@@ -1,0 +1,84 @@
+.nav-lane {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.left-lane {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.back-icon {
+  font-size: 20px;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+}
+
+.selected-img {
+  height: 110px;
+  clip-path: circle();
+  border-style: none;
+}
+
+.country-name {
+  display: flex;
+  align-self: center;
+  flex-wrap: wrap;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.cont-img-box {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  border: 1px solid royalblue;
+  -webkit-filter: grayscale(70%);
+  filter: grayscale(35%);
+  background-color: royalblue;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.sp1 {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  color: #460c68;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  height: 50px;
+  border-top: 1px solid royalblue;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+.val {
+  color: aliceblue;
+}
+
+.new-Color {
+  background-color: royalblue;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(20%);
+}
