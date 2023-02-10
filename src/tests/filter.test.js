@@ -1,28 +1,22 @@
 import React from 'react';
-import { useDispatch, Provider } from 'react-redux';
-import { render, fireEvent, act } from '@testing-library/react';
-import configureStore from 'redux-mock-store';
-import { filter } from '../Redux/home/homeSlice';
+import { render, fireEvent } from '@testing-library/react';
+import { useDispatch } from 'react-redux';
 import Filter from '../components/Filter';
+import { filter } from '../Redux/home/homeSlice';
 
-const mockStore = configureStore([]);
+jest.mock('react-redux', () => ({
+  useDispatch: jest.fn(),
+}));
 
 describe('Filter component', () => {
-  test('filter input changes and dispatches the correct action', () => {
-    const store = mockStore({});
+  it('dispatches the filter action with the input value', () => {
     const dispatch = jest.fn();
     useDispatch.mockReturnValue(dispatch);
 
-    const { getByPlaceholderText } = render(
-      <Provider store={store}>
-        <Filter />
-      </Provider>,
-    );
+    const { getByPlaceholderText } = render(<Filter />);
     const input = getByPlaceholderText('Enter search..');
 
-    act(() => {
-      fireEvent.change(input, { target: { value: 'test' } });
-    });
+    fireEvent.change(input, { target: { value: 'test' } });
 
     expect(dispatch).toHaveBeenCalledWith(filter('test'));
   });

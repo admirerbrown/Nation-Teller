@@ -14,6 +14,7 @@ Every page (the main page and the pages for each item) have a unique route withi
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
+  - [🚀 Video Walk Through ](#-video-walk-through-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Install](#install)
@@ -73,6 +74,13 @@ Displays filtered list of country depending on the users search parameter.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Video Walk Through <a name="live-demo"></a>
+
+- [click here](https://www.loom.com/share/bbd26b78615a4ef2b0cb2f7c0138ba93)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -122,7 +130,7 @@ To run the tests in a development server, execute the following command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: Render, or Netlify
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
