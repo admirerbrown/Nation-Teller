@@ -68,7 +68,7 @@ Displays filtered list of country depending on the users search parameter.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- []()
+- [click here](https://country-information-4jv2.onrender.com/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -177,7 +177,7 @@ If you like this project please follow me on github and give stars to my repo.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]() licensed.
+This project is [MIT](https://github.com/admirerbrown/Covid-Rat/blob/build-basic-pageStructure/LICENSE.md) licensed.
  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
